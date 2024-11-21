@@ -1,0 +1,53 @@
+.Navbar1 {
+    position: sticky; /* Makes the navbar sticky */
+    top: 0; 
+    padding: 0px; 
+    margin: 0px;
+    margin-top: 0;
+    background-color: #ffdede;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    z-index: 12;
+    margin-bottom: 10px;
+    /* padding-bottom: 20px; */
+    /* margin-bottom: 10px; */
+}
+.home img{
+    width: 26px;
+    margin: 10px;
+}
+.search input{
+    padding-left: 21px;
+    font-size: 15px;
+    width: 500px;
+    height: 35px;
+    border: 1px solid rgba(221, 220, 220, 0.765);
+    border-radius: 15px 0 0 15px;
+}
+.search img{
+    background-color: rgb(255, 255, 255);
+    height: 32.2px;
+    padding: 1px;
+    
+    border-radius: 0 10px 10px 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and border are included in the total width/height */
+}
+
+.user p{
+    font-weight: 400;
+    margin-right: 30px;
+    
+}
+
+.user img{
+    width: 28px;
+    margin: 10px;
+}

@@ -1,0 +1,54 @@
+# Python (Flask)
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+.env/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Flask specific
+instance/
+*.db
+*.sqlite3
+
+# React (Frontend)
+
+# Node modules
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# dotenv environment files
+.env
+
+# Next.js (if you're using it in React)
+.next/
+
+# Storybook (if you're using it)
+.out/
+
+# IDEs
+.vscode/
+.idea/

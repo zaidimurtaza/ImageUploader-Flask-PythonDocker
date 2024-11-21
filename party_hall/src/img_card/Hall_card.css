@@ -1,0 +1,44 @@
+.container{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+
+.Hall-card {
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+    /* padding: 10px; */
+    text-align: center;
+    /* height:20em; */
+    font-size: 12px;
+    width: 100%; /* Make the card take up full width of its container */
+    max-width: 300px; /* Set a maximum width for the card */
+    /* box-sizing: border-box; Ensure padding is included in the width */
+    border-radius: 13px;
+    background-color: #ffdede;
+    margin-bottom: 20px;
+  }
+
+  .Hall-card img {
+    border-radius: 13px 13px 0 0px;
+    /* padding: 10px 2px ; */
+    align-items: center;
+    margin-bottom: 0px;
+    
+    width: 100%; /* Image width will now scale with the div */
+    /* height: auto; */
+     /* Maintain aspect ratio of the image */
+    /* display: block; Remove the small space below the image */
+  }
+
+  .Hall-card p {
+    /* padding: 20px; */
+    /* margin: 20px; */
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+
+  
